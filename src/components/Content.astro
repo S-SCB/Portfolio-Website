@@ -20,24 +20,6 @@ import socials from "@/data/socials";
 		</article>
 	</Accordion>
 
-	{
-		experiences.length > 0 && (
-			<Accordion title={"Experience"} icon={"carbon:construction"}>
-				{experiences.map((experience) => (
-					<Card
-						title={experience.title}
-						timeframe={experience.date}
-						description={experience.content}
-						tags={experience.tags}
-						url={experience.url}
-						url_name={experience.organization}
-						location={experience.location}
-					/>
-				))}
-			</Accordion>
-		)
-	}
-
 	<Accordion title={"Education"} icon={"carbon:education"}>
 		{
 			educations.map((education) => (
@@ -69,7 +51,7 @@ import socials from "@/data/socials";
 		}
 	</Accordion>
 
-	<Accordion title={"Certifications"} icon={"carbon:certificate"}>
+	<Accordion title={"Achievements and Competitions"} icon={"carbon:certificate"}>
 		{
 			certificates.map((certificate) => (
 				<Card
@@ -84,19 +66,42 @@ import socials from "@/data/socials";
 		}
 	</Accordion>
 
-	<Accordion title={"Blogs"} icon={"carbon:pen"}>
-		{
-			blogs.map((blog) => (
-				<Card
-					title={blog.title}
-					timeframe={blog.date}
-					description={blog.content}
-					url={blog.url}
-					url_name={blog.url_name}
-				/>
-			))
+	{
+		experiences.length > 0 && (
+			<Accordion title={"Experience"} icon={"carbon:construction"}>
+				{experiences.map((experience) => (
+					<Card
+						title={experience.title}
+						timeframe={experience.date}
+						description={experience.content}
+						tags={experience.tags}
+						url={experience.url}
+						url_name={experience.organization}
+						location={experience.location}
+					/>
+				))}
+			</Accordion>
+		)
+	}
+
+	{
+	blogs.length > 0 && (
+		<Accordion title={"Blogs"} icon={"carbon:pen"}>
+			{
+				blogs.map((blog) => (
+					<Card
+						title={blog.title}
+						timeframe={blog.date}
+						description={blog.content}
+						url={blog.url}
+						url_name={blog.url_name}
+					/>
+				)
+			)
 		}
 	</Accordion>
+	)
+	}
 
 	<Accordion title={"Documents"} icon={"carbon:volume-file-storage"}>
 		<Resume />

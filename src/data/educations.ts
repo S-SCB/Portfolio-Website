@@ -20,14 +20,15 @@ const educations: Education[] = [
 			"Bachelor of Technology in Computer Science and Engineering from Graphic Era Hill University",
 	},
 	{
-		title: "High School",
-		date: "2011 - 2022",
-		organization: "Aryaman Vikram Birla Institute of Learning",
+		title: "High School",//HIND PUBLIC SCHOOL SITARGANJ RD U S NAGAR UK
+		date: "2020 - 2022",
+		organization: "Hind Public School Sitarganj RD U.S. Nagar UK",
 		location:
-			"Aryaman Vikram Birla Institute of Learning, Haldwani, Uttarakhand, IN",
-		url: "https://avbil.net",
-		tags: ["High School", "Middle School", "Primary School"],
-		content: "High School from Aryaman Vikram Birla Institute of Learning",
+			// "Aryaman Vikram Birla Institute of Learning, Haldwani, Uttarakhand, IN",
+			"Hind Public School, Khatima, Uttarakhand, IN",
+		url: "https://www.hpskhatima.in/",
+		tags: ["High School"],
+		content: "High School from Hind Public School, Khatima",
 	},
 ];
 

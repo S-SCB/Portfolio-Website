@@ -8,27 +8,27 @@ const socials: Social[] = [
 	{
 		title: "Email",
 		icon: "carbon:email",
-		url: "mailto:lakshyajeetjalal@duck.com",
+		url: "mailto:saurabhbaij@gmail.com",
 	},
 	{
 		title: "GitHub",
 		icon: "carbon:logo-github",
-		url: "https://github.com/mglsj",
+		url: "https://github.com/S-SCB",
 	},
 	{
 		title: "LinkedIn",
 		icon: "carbon:logo-linkedin",
-		url: "https://www.linkedin.com/in/lakshyajeet-jalal/",
+		url: "www.linkedin.com/in/saurabh-baij",
 	},
 	{
 		title: "Twitter",
 		icon: "carbon:logo-twitter",
-		url: "https://twitter.com/mg_lsj",
+		url: "https://x.com/SaurabhBaij",
 	},
 	{
 		title: "Instagram",
 		icon: "carbon:logo-instagram",
-		url: "https://www.instagram.com/mglsj.gg/",
+		url: "https://www.instagram.com/saurabhbaij/",
 	},
 ];
 
