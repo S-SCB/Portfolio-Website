@@ -18,7 +18,7 @@ const socials: Social[] = [
 	{
 		title: "LinkedIn",
 		icon: "carbon:logo-linkedin",
-		url: "www.linkedin.com/in/saurabh-baij",
+		url: "https://linkedin.com/in/saurabh-baij",
 	},
 	{
 		title: "Twitter",
