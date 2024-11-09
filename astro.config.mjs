@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "s-scb.github.io",
+	site: "https://s-scb.github.io",
 	base: "/Portfolio-Website",
 	trailingSlash: "always",
 	integrations: [tailwind(), compress(), icon()],
