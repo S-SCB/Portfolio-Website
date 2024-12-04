@@ -14,7 +14,7 @@ const experiences: Experience[] = [
 		date: "2022 - 2023",
 		organization: "Graphic Era Hill University",
 		location: "Haldwani",
-		url: "",
+		url: "https://haldwani.gehu.ac.in/",
 		tags: ["Leadership", "Communication"],
 		content:
 			`<ul>
