@@ -3,9 +3,12 @@ const title = "SSCB | Portfolio";
 const author = "Saurabh Baij";
 const description = "SSCB's Portfolio";
 const image = `${Astro.site}/assets/avatar.png`;
+import GoogleAnalytics from "./Script/GoogleAnalytics.astro";
 ---
 
 <head>
+	<!-- Google Analytics Code -->
+	<GoogleAnalytics />
 	<title>{title}</title>
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="/favicon.ico" />
@@ -47,4 +50,5 @@ const image = `${Astro.site}/assets/avatar.png`;
 		import { themeChange } from "theme-change";
 		themeChange();
 	</script>
-</head>
+
+
